@@ -3,7 +3,7 @@ import summarize
 
 st.title("Text Summarization")
 
-text_input = st.text_area("Enter your text here")
+text_input = st.text_area("Enter your paragraph here:")
 if st.button("Summarize"):
     if text_input.strip():
         # Summarize the input text by calling the back-end logic
